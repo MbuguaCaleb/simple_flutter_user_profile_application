@@ -45,6 +45,24 @@ it can be used to create spacing for both width and height
 ```
 
 
+**Stateful Widgets**
+```
+These are widgets which contain data that may change over time.
+Introduces what we call the state object.There is a state object for the stateful widget
+
+(a)Inside the state object we can be able to define data and we can change that data over time
+(b)The state object contains data and returns a widget tree just like a stateless widget..
+
+Thus all the widgets returned from the state object may have data that changes over time
+
+Note that a stateful widget works exactly as a stateless widget interms of the widget tree returned
+only that it contains data
+
+setState just like in react is used to set the state and trigger a rebuild.
+This is what updates the widget once the state has changed.It is the one that triggers the build function
+to rerun.
+```
+
 **Notes by**
 ```
 Mbugua Caleb
